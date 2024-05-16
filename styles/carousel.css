@@ -1,0 +1,76 @@
+.carousel__title {
+    color: var(--orange-color);
+    background-color: var(--white-color);
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 700;
+    padding: 1em 0 0.5em 0;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-button-prev,.swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: 0.5em 0 ;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.card-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-btn__list {
+    display: flex;
+}
+
+.card-container {
+
+    background: var(--white-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+ 
+}
+
+.description__title {
+    color: var(--orange-color);
+    font-weight: 700;
+}
+
+.description__title-book {
+    color: var(--blue-color);
+    font-weight: 700;
+    font-size: 1.125rem;
+    margin: 0.5em 0;
+}
+
+.description__text {
+    color: var(--black-color);
+    font-size: .875rem;
+    font-weight: 400;
+}
+
+.card-btn__items {
+    margin: 0 0.5em;
+}
+
+.card-btn__anchor {
+    background-color: var(--orange-color);
+    padding: 1em 2.3em;
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--white-color);
+}

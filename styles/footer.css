@@ -1,0 +1,8 @@
+hr {
+    margin: 0;
+}
+
+.footer-container {
+    background-color: var(--white-color);
+    padding: 1em;
+}
