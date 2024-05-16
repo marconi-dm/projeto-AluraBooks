@@ -69,8 +69,12 @@
 
 .card-btn__anchor {
     background-color: var(--orange-color);
-    padding: 1em 2.3em;
+    padding: 1em 2.1em;
     text-decoration: none;
     font-weight: 700;
     color: var(--white-color);
+}
+
+.card__description {
+    padding: 1em;
 }
