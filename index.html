@@ -11,20 +11,45 @@
 <body>
     <header class="header-container">
         <div class="menu-container">
-            <input type="checkbox" name="menu" id="menu"  class="header__btn">
-            <label for="menu">
-                <span class="header__menu-hamburguer header__image"></span>
-            </label>
-            <ul class="menu-list">
-                <li class="menu__title">Categorias</li>
-                <li class="menu__item"><a href="#" class="menu__link">PROGRAMAÇÃO</a></li>
-                <li class="menu__item"><a href="#" class="menu__link">FRONT-END</a></li>
-                <li class="menu__item"><a href="#" class="menu__link">INFRAESTRUTURA</a></li>
-                <li class="menu__item"><a href="#" class="menu__link">BUSINESS</a></li>   
-                <li class="menu__item"><a href="#" class="menu__link">DESIGN & UX</a></li>            
-            </ul>
+            <div class="menu-container__tablet">
+                <input type="checkbox" name="menu" id="menu"  class="header__btn">
+                <label for="menu">
+                    <span class="header__menu-hamburguer header__image"></span>
+                </label>
+                <ul class="menu-list">
+                    <li class="menu__title">Categorias</li>
+                    <li class="menu__item"><a href="#" class="menu__link">PROGRAMAÇÃO</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">FRONT-END</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">INFRAESTRUTURA</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">BUSINESS</a></li>   
+                    <li class="menu__item"><a href="#" class="menu__link">DESIGN & UX</a></li>            
+                </ul>
+            </div>
             <img src="./assets/Logo.svg" alt="Logo Alura Books" class="header__image">
+            <h1 class="menu-container__title"><b class="menu-container__title__bold">Alura</b>Books</h1>
         </div>
+            
+            <ul class="options-list">
+                <li class="options__item">
+                    <input type="checkbox" name="option__menu" id="option__menu" class="header__btn" >
+                        <label for="option__menu">
+                            <span class="options__item option__item-title">CATEGORIAS</span>
+                        </label>
+                        <ul class="menu-list">
+                            <li class="menu__item"><a href="#" class="option__menu-link">PROGRAMAÇÃO</a></li>
+                            <li class="menu__item"><a href="#" class="option__menu-link">FRONT-END</a></li>
+                            <li class="menu__item"><a href="#" class="option__menu-link">INFRAESTRUTURA</a></li>
+                            <li class="menu__item"><a href="#" class="option__menu-link">BUSINESS</a></li>   
+                            <li class="menu__item"><a href="#" class="option__menu-link">DESIGN & UX</a></li>            
+                        </ul>
+                </li>
+                <li class="options__item"><a href="#" class="options__link">FAVORITOS</a></li>
+                <li class="options__item"><a href="#" class="options__link">MINHA ESTANTE</a></li>
+            </ul>
+
+            
+            
+
         <div class="menu-container">
             <a href="#"> <img src="./assets/Favoritos.svg" alt="Meus favoritos" class="header__image"></a>
             <a href="#"><img src="./assets/Compras.svg" alt="Carrinho de compras" class="header__image"></a>

@@ -66,7 +66,80 @@
     display: none;
 }
 
+.menu-container__title {
+    display:none
+}
 
-@media screen and (min-width:64rem) {
+.options-list {
+    display: none;
+}
+
+@media screen and (min-width:1024px) {
+
+    .option__menu-link {
+        color: var(--blue-color);
+        text-decoration: none;
+    }
+
+    .menu-container__title__bold,
+    .menu-container__title {
+        font-family:var(--secundary-font);
+        font-size: 1.875rem;
+    }
+    .menu-container__title{
+        font-weight: 400;
+        display: block;
+    }
+
+    .menu-container__title__bold {
+        font-weight: 700;
+    }
+
+    .menu-container__tablet {
+        display: none;
+    }
+
+    .options-list {
+        display: flex;
+    }
+    .options__item {
+        padding: 0 1em;
+    }
+
+    .options__link {
+        text-decoration: none;
+        color: var(--black-color);
+    }
+
+    .option__list {
+        display: none;
+        position: absolute;
+        top: 100%;
+        z-index: 99;
+    }
+    .menu-list,.menu__item {
+        width: 40%;
+    }
+    
+    #option__menu[type=checkbox]:checked ~ .menu-list{
+        display: block;
+
+    }
+
+    #option__menu[type=checkbox]:checked + label .option__item-title{
+        background:var(--gradient-color);
+        color: var(--white-color);
+        padding: 1em;
+    }
+
+    .menu__item:active {
+        background:var(--gradient-color);
+    }
+
+    .option__menu-link:active {
+        color: var(--white-color);
+
+    }
+
     
 }
