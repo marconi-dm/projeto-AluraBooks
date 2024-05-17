@@ -143,15 +143,8 @@
 
     }
 
-    .option__menu-link {
-        display: block; /* Garante que o link ocupe todo o espaço do li */
-      }
-      
-      .option__menu-link:focus {
-        outline: none; /* Remove o contorno de foco padrão */
-      }
 
-      
+
     .transparent__image {
         display: none;
 
