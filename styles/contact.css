@@ -57,9 +57,15 @@
 
     .contact__title{
         font-size: 1.5rem;
+        width: 60%;
     }
 
     .contact__email::placeholder {
         background-position: 5em;
     }
+
+    .contact__text {
+        width: 60%;
+    }
+
 }
