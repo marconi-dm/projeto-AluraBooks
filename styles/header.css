@@ -89,6 +89,7 @@
     .menu-container__title{
         font-weight: 400;
         display: block;
+        margin-left: -1em;
     }
 
     .menu-container__title__bold {
@@ -141,5 +142,17 @@
 
     }
 
+    .transparent__image {
+        display: none;
+
+    }
     
+    .header-container{
+        display: flex;
+        justify-content: center;
+        gap: 5em;
+    }
+    .menu-container {
+        gap: 1.5em;
+    }
 }

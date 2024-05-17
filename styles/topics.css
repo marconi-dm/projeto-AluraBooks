@@ -32,3 +32,21 @@
 
 
 }
+
+
+@media screen and (min-width:1024px) {
+
+    .topics__item {
+        margin: 2.5em 0.5em;
+    }
+
+    .topics__link {
+        font-size: 1.5rem;
+    }
+
+    .topics__title {
+        font-size: 1.5rem;
+        margin-bottom: 0.5em;
+    }
+
+}

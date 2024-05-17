@@ -38,3 +38,28 @@
 
 
 }
+
+@media screen and (min-width:1024px) {
+    .contact-container {
+        padding: 4em;
+        display: flex;
+        text-align: left;
+        justify-content: space-between;
+
+    }
+    .contact__email {
+        width: 40%;
+        margin-right: 2.5em;
+    }
+    .contact-container__1024 {
+        margin-left:2.5em ;
+    }
+
+    .contact__title{
+        font-size: 1.5rem;
+    }
+
+    .contact__email::placeholder {
+        background-position: 5em;
+    }
+}
