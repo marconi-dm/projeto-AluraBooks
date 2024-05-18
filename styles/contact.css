@@ -49,22 +49,22 @@
 
     }
     .contact__email {
-        width: 40%;
+        width: 30%;
         height: 10%;
     }
 
 
     .contact__title{
         font-size: 1.5rem;
-        width: 60%;
+        margin-bottom: 1em;
     }
 
     .contact__email::placeholder {
-        background-position: 5em;
+        background-position: 4.5em;
     }
 
-    .contact__text {
-        width: 60%;
+    .contact-container__1024{
+        width: 40%;
     }
-
+    
 }
