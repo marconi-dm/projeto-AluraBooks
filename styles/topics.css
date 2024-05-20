@@ -50,3 +50,9 @@
     }
 
 }
+
+@media screen and (min-width:1728px) {
+    .topics-container {
+        padding: 3em 30vw;
+    }
+}

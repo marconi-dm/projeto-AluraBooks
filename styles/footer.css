@@ -48,3 +48,12 @@ hr {
         margin-left: 1.5em;
     }
 }
+
+@media screen and (min-width:1728px){
+    .footer-container__list {
+        border-left: 1px solid var(--gray-color);
+    }
+    .footer-container{
+        gap: 10em;
+    }
+}

@@ -68,3 +68,13 @@
     }
     
 }
+
+@media screen and (min-width:1728px){
+    .contact-container {
+        padding: 3em 29vw;
+    }
+    .contact__email {
+        width: 40%;
+
+    }
+}
