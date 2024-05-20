@@ -7,3 +7,6 @@ O curso de Mobile-First da Alura abrange os princípios e práticas de design re
 Sobre o Projeto
 
 O objetivo deste projeto é aplicar os conceitos aprendidos no curso para criar uma aplicação web com design responsivo, priorizando a experiência do usuário em dispositivos móveis. O projeto inclui a criação de layouts flexíveis, imagens otimizadas para diferentes tamanhos de tela e uma abordagem centrada no usuário.
+
+
+[link do projeto](https://projeto-alura-books-9aysv56cl-marconi-damascenos-projects.vercel.app/#)
